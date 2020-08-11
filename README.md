@@ -33,6 +33,6 @@ Download [this video]. Once you're ready to start, press ```Start Data Stream```
 
 ## Step 5: Retrieve and Send Data
 
-Once you've finished watching the video, press ```Stop Data Stream```. In your /Documents/OpenBCI_GUI folder you should find the recorded data for that session. Send it to us, letting us know whether you looked for puppies or for kittens. 
+Once you've finished watching the video, press ```Stop Data Stream```. In your /Documents/OpenBCI_GUI/Recordings folder you should find the recorded data for that session. Send it to us, letting us know whether you looked for puppies or for kittens. 
 
 
