@@ -2,7 +2,7 @@
 
 Welcome to the OpenBCI Puppies and Kittens Experiment! 
 
-During this experiment, you will watch a video containing images of puppies and kittens. You'll have to choose which of the two image classes you want to identify, and press a button everytime you see an image that belongs to that class.
+During this experiment, you will watch a video containing images of puppies and kittens, and press a button every time you see a puppy in the image.
 
 Below are the instructions on how to do it.
 
@@ -29,10 +29,10 @@ Connect the breadboard containing the external button to the Cyton board as show
 
 ## Step 4: Run Experiment
 
-Download [this video]. Once you're ready to start, press ```Start Data Stream``` in the GUI,open the video, and make it Full-Screen. Decide whether you will be searching for puppies or for kittens and make a note of it. If you choose puppies, every time a puppy appears in the video, you'll press the button. The same applies if you choose kittens. You're now ready to press play!
+Download [this video]. Once you're ready to start, press ```Start Data Stream``` in the GUI,open the video, and make it Full-Screen. Every time a puppy appears in the video, press the button. The video is around 3 minutes long. You're now ready to press play!
 
 ## Step 5: Retrieve and Send Data
 
-Once you've finished watching the video, press ```Stop Data Stream```. In your /Documents/OpenBCI_GUI/Recordings folder you should find the recorded data for that session. Send it to us, letting us know whether you looked for puppies or for kittens. 
+Once you've finished watching the video, press ```Stop Data Stream```. In your /Documents/OpenBCI_GUI/Recordings folder you should find the recorded data for that session. Send us that file via Slack or email along with any feedback you may have. Thank you for taking part this experiment!
 
 
