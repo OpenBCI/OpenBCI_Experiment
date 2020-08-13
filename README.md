@@ -23,7 +23,7 @@ Follow [this tutorial](https://docs.openbci.com/docs/01GettingStarted/01-Boards/
 
 ## Step 3: External Button Setup
 
-Connect the breadboard containing the external button to the Cyton board as shown in the picture below. Place the breadboard beside your computer such that the photocell points to the lower right corner of your screen, which is where the video trigger will be located.
+Connect the breadboard containing the external button to the Cyton board as shown in the picture below. Place the breadboard beside your computer such that the photocell points to the lower left corner of your screen, which is where the video trigger will be located.
 
 ![](connect.jpg)
 
