@@ -231,9 +231,10 @@ def create_frames(img, frame_num, label, fps, trigger_position):
     # embed
 
     frame_array = []
-
+    # random interval
+    random_interval = random.randint(-2, 2) / 10
     # add cross before current image
-    frame_array += [cross] * int(0.5 * fps)
+    frame_array += [cross] * int((0.5 + random_interval) * fps)
 
     # add current image
     for i in range(int(0.05 * fps)):
@@ -243,8 +244,12 @@ def create_frames(img, frame_num, label, fps, trigger_position):
     for i in range(int(0.05 * fps)):
         frame_array.append(img_black)
 
+    # random interval
+    # random_interval = random.randint(-2, 2) / 10
+
     # add cross after current image
-    frame_array += [cross] * int(0.5 * fps)
+    frame_array += [cross] * int((0.5 + random_interval) * fps)
+    print(int((0.5 + random_interval) * fps))
 
     return frame_array, label
 
