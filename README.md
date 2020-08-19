@@ -25,6 +25,9 @@ First, connect the headwear to yourself and to the Cyton board, and read from it
 
 Using the components listed above, assemble the external button on the breadboard as shown in the pictures below.
 
+![](Full_Breadboard.jpeg)
+![](Breadboard.jpeg)
+
 Next, connect the breadboard to the Cyton board as shown in the picture below. Place the breadboard beside your computer such that the photocell points to the lower left corner of your screen, which is where the video trigger will be located.
 
 ![](connect.jpg)
