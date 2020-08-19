@@ -36,12 +36,14 @@ Next, connect the breadboard to the Cyton board as shown in the picture below. P
 
 Download [this video](video.mp4). Once you're ready to start, press ```Start Data Stream``` in the GUI,open the video, and make it Full-Screen. Every time a puppy appears in the video, press the button. The video is around 3 minutes long. You're now ready to press play!
 
-## Step 5: Retrieve and Send Data
+## Step 5: Retrieve Data
 
 Once you've finished watching the video, press ```Stop Data Stream```. In your /Documents/OpenBCI_GUI/Recordings folder you should find the recorded data for that session. 
 
-## Step 6: Process the Recorded Data
+## Step 6: Process Data
 
 In [this file], you'll find sample code to read, plot, and analyze the recorded data. 
 
+## Step 7: Create your Own Experiment
 
+Once you understand how to conduct an experiment, you can modify [this Python script](ExternalTriggerCreator_quick.py) to make your own video. The current code reads the images stored in the ```Images``` folder, shuffles them, and creates a video with 4 different sessions. Each session displays the images at a different rate. Each image has an embedded trigger and is separated from the others by a fixation cross.
