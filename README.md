@@ -48,7 +48,7 @@ Once you've finished watching the video, press ```Stop Data Stream```. In your /
 
 ## Step 6: Process Data
 
-In [this file], you'll find sample code to read, plot, and analyze the recorded data. 
+In [this Python notebook](OpenBCI_Experiment_Toolkits.ipynb), you'll find sample code to read, plot, and analyze the recorded data. 
 
 ## Step 7: Create your Own Experiment
 
