@@ -33,10 +33,11 @@ Using the components listed above, assemble the external button on the breadboar
 
 ![](Full_Breadboard.jpeg)
 ![](Breadboard.jpeg)
+![](Breadboard_Labels.jpeg)
 
-Next, connect the breadboard to the Cyton board as shown in the picture below. Place the breadboard beside your computer such that the photocell points to the lower left corner of your screen, which is where the video trigger will be located.
+Next, connect the breadboard to the Cyton board as shown below. Place the breadboard beside your computer such that the photocell points to the lower left corner of your screen, which is where the video trigger will be located.
 
-![](connect.jpg)
+![](connect.jpeg)
 
 ## Step 4: Run Experiment
 
