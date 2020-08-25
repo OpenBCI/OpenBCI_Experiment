@@ -10,7 +10,7 @@ Below are the instructions on how to do it. The full information on this experim
 
 1. Headwear, which can be:
 
-- [Ultracortex Mark IV Headset](https://shop.openbci.com/products/ultracortex-mark-iv) with copper cables. 
+- [Ultracortex Mark IV Headset](https://shop.openbci.com/products/ultracortex-mark-iv) with [copper wires](https://www.amazon.com/StrivedayTM-Flexible-Electric-electronic-electrics/dp/B01LH1FYHO/ref=sr_1_3?crid=2ANLHLBH5WL2Q&dchild=1&keywords=flexible+wire+22+gauge&qid=1598387126&s=hi&sprefix=flexible+wire+22+g%2Ctools%2C179&sr=1-3). 
 - [Gold Cup Electrodes](https://shop.openbci.com/collections/frontpage/products/openbci-gold-cup-electrodes?variant=9056028163) with [Ten20 Paste](https://shop.openbci.com/collections/frontpage/products/ten20-conductive-paste-2oz-jars?variant=31373533198).
 - [EEG Electrode Cap Kit](https://docs.openbci.com/docs/04AddOns/01-Headwear/ElectrodeCap) with [Electrode Cap Gel](https://shop.openbci.com/collections/frontpage/products/electrodegel?variant=28056992776264) and [Touch Proof Adapter](https://shop.openbci.com/collections/frontpage/products/touch-proof-electrode-cable-adapter?variant=31007211715).
 2. [Cyton Board](https://shop.openbci.com/collections/frontpage/products/cyton-biosensing-board-8-channel?variant=38958638542)
