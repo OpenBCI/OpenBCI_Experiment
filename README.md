@@ -15,7 +15,13 @@ Below are the instructions on how to do it. The full information on this experim
 - [EEG Electrode Cap Kit](https://docs.openbci.com/docs/04AddOns/01-Headwear/ElectrodeCap) with [Electrode Cap Gel](https://shop.openbci.com/collections/frontpage/products/electrodegel?variant=28056992776264) and [Touch Proof Adapter](https://shop.openbci.com/collections/frontpage/products/touch-proof-electrode-cable-adapter?variant=31007211715).
 2. [Cyton Board](https://shop.openbci.com/collections/frontpage/products/cyton-biosensing-board-8-channel?variant=38958638542)
 2. [OpenBCI GUI](https://github.com/OpenBCI/OpenBCI_GUI/releases/tag/v5.0.0)
-3. [To add external button components]
+3. External Button Breadboard:
+
+- [1x Breadboard](https://www.amazon.com/DEYUE-breadboard-Set-Prototype-Board/dp/B07LFD4LT6/ref=sr_1_5?dchild=1&keywords=breadboard&qid=1591125068&sr=8-5)
+- [1x Photoresistor](https://www.amazon.com/DEYUE-breadboard-Set-Prototype-Board/dp/B07LFD4LT6/ref=sr_1_5?dchild=1&keywords=breadboard&qid=1591125068&sr=8-5)
+- [1x 220 ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QK9ZBVZ/ref=sr_1_1_sspa?crid=S5FLXTR7YG6L&dchild=1&keywords=resistor+220+ohm&qid=1591125607&s=industrial&sprefix=resistor+220+%2Cindustrial%2C146&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWlRVVTM3QzRBWEE4JmVuY3J5cHRlZElkPUEwOTMyNDM3Q1JIM0gwUlc5UzJYJmVuY3J5cHRlZEFkSWQ9QTAwNzUwODkxSDRDS0ZQVTlJWVpKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+- [5x Jumper cables male to male (8 inch)](https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B077N9X7Y3/ref=sr_1_2?dchild=1&keywords=Male%2Bto%2Bmale%2BJumpers&qid=1591126744&sr=8-2&th=1)
+- Either [2x Jumper cables female to male (8 inch)](https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B077N5RLHN/ref=sr_1_1_sspa?dchild=1&keywords=Male%2Bto%2BFemale%2BJumpers&qid=1591126392&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTEtKREtGMTZSNTA0JmVuY3J5cHRlZElkPUEwMjExMDE0Q0dYOEZCUFlKRFZMJmVuY3J5cHRlZEFkSWQ9QTA0NDYyMjMyMTk5WlhCMEg0MzFRJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)  for connection to photoresistor or [2x Jumper cables male to male (8 inch)](https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B077N9X7Y3/ref=sr_1_2?dchild=1&keywords=Male%2Bto%2Bmale%2BJumpers&qid=1591126744&sr=8-2&th=1) if we can solder the cable with photoresistor.
 
 ## Step 1: Headwear, Board and Software Setup
 
