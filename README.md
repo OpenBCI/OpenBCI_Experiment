@@ -4,7 +4,7 @@ Welcome to the OpenBCI Puppies and Kittens Experiment designed by Fan Li.
 
 During this experiment, you will watch a video containing images of puppies and kittens, and press a button every time you see a puppy in the image.
 
-Below are the instructions on how to do it. The full information on this experiment can be found on [Fan Li's Repository](https://github.com/Fan1117/Puppies_and_Kittens/).
+Below are the instructions on how to do it. The full information on this experiment can be found on [Fan Li's Repository](https://github.com/Fan1117/Puppies_and_Kittens/). Once you're comfortable with how the experiment works, you can modify the script to create your own experiments.
 
 ## Equipment Required
 
