@@ -36,7 +36,7 @@ The diagram for the circuit with the photocell and the button can be found below
 
 ![](Circuit_Diagram.png)
 
-Using the components listed above, assemble the breadboard. You can find an example of how to assemble a button circuit using Arduino [here](https://www.arduino.cc/en/tutorial/button) and an example of how to assemble a photocell circuit [here](https://learn.sparkfun.com/tutorials/photocell-hookup-guide/all). The final breadboard should look similar to the pictures.
+Using the components listed above, assemble the breadboard. You can find an example of how to assemble a button circuit using Arduino [here](https://www.arduino.cc/en/tutorial/button) and an example of how to assemble a photocell circuit [here](https://openbci.com/community/measuring-stimulus-timing-with-a-photoresistor/). The final breadboard should look similar to the pictures.
 
 ![](Full_Breadboard.jpeg)
 ![](Breadboard.jpeg)
