@@ -15,11 +15,14 @@ Below are the instructions on how to do it. The full information on this experim
 - [EEG Electrode Cap Kit](https://docs.openbci.com/docs/04AddOns/01-Headwear/ElectrodeCap) with [Electrode Cap Gel](https://shop.openbci.com/collections/frontpage/products/electrodegel?variant=28056992776264) and [Touch Proof Adapter](https://shop.openbci.com/collections/frontpage/products/touch-proof-electrode-cable-adapter?variant=31007211715).
 2. [Cyton Board](https://shop.openbci.com/collections/frontpage/products/cyton-biosensing-board-8-channel?variant=38958638542)
 2. [OpenBCI GUI](https://github.com/OpenBCI/OpenBCI_GUI/releases/tag/v5.0.0)
-3. External Button Breadboard:
+3. Breadboard:
+
+The breadboard includes a photocell circuit for the trigger, and a button circuit for user feedback. The components needed for both are:
 
 - [1x Breadboard](https://www.amazon.com/DEYUE-breadboard-Set-Prototype-Board/dp/B07LFD4LT6/ref=sr_1_5?dchild=1&keywords=breadboard&qid=1591125068&sr=8-5)
 - [1x Photoresistor](https://www.amazon.com/gp/product/B01N7V536K/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=)
-- [1x 220 ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QK9ZBVZ/ref=sr_1_1_sspa?crid=S5FLXTR7YG6L&dchild=1&keywords=resistor+220+ohm&qid=1591125607&s=industrial&sprefix=resistor+220+%2Cindustrial%2C146&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWlRVVTM3QzRBWEE4JmVuY3J5cHRlZElkPUEwOTMyNDM3Q1JIM0gwUlc5UzJYJmVuY3J5cHRlZEFkSWQ9QTAwNzUwODkxSDRDS0ZQVTlJWVpKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+- [1x 220 Ohm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QK9ZBVZ/ref=sr_1_1_sspa?crid=S5FLXTR7YG6L&dchild=1&keywords=resistor+220+ohm&qid=1591125607&s=industrial&sprefix=resistor+220+%2Cindustrial%2C146&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWlRVVTM3QzRBWEE4JmVuY3J5cHRlZElkPUEwOTMyNDM3Q1JIM0gwUlc5UzJYJmVuY3J5cHRlZEFkSWQ9QTAwNzUwODkxSDRDS0ZQVTlJWVpKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+- [1x 1KOhm resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QG1V4YL/ref=sr_1_1_sspa?dchild=1&keywords=resistor+1k+ohm&qid=1598631730&s=industrial&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFNWEM0VURBS0lSS0EmZW5jcnlwdGVkSWQ9QTA5NTk4MzkyNk5QWldHMVY4U0hKJmVuY3J5cHRlZEFkSWQ9QTAwOTU5MDVGODBTMU85ODM0QUkmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
 - [5x Jumper cables male to male (8 inch)](https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B077N9X7Y3/ref=sr_1_2?dchild=1&keywords=Male%2Bto%2Bmale%2BJumpers&qid=1591126744&sr=8-2&th=1)
 - Either [2x Jumper cables female to male (8 inch)](https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B077N5RLHN/ref=sr_1_1_sspa?dchild=1&keywords=Male%2Bto%2BFemale%2BJumpers&qid=1591126392&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTEtKREtGMTZSNTA0JmVuY3J5cHRlZElkPUEwMjExMDE0Q0dYOEZCUFlKRFZMJmVuY3J5cHRlZEFkSWQ9QTA0NDYyMjMyMTk5WlhCMEg0MzFRJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1) for the photoresistor connection or [2x Jumper cables male to male (8 inch)](https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B077N9X7Y3/ref=sr_1_2?dchild=1&keywords=Male%2Bto%2Bmale%2BJumpers&qid=1591126744&sr=8-2&th=1) if you can solder the cable with the photoresistor.
 
@@ -27,9 +30,13 @@ Below are the instructions on how to do it. The full information on this experim
 
 First, connect the headwear to yourself and to the Cyton board, and read from it using the GUI. If you are using the Ultracortex, follow [this tutorial](https://docs.openbci.com/docs/04AddOns/01-Headwear/MarkIV). If you're using the gold cup electrodes, follow [this guide](https://docs.openbci.com/docs/01GettingStarted/02-Biosensing-Setups/EEGSetup) to learn how to connect each electrode, and connect them in the positions you'd like to measure EEG from. A good guide to the 8 positions commonly used can be found in the Ultracortex tutorial. If you're using an electrode cap, follow [this tutorial](https://docs.openbci.com/docs/04AddOns/01-Headwear/ElectrodeCap) to connect it.
 
-## Step 2: External Button Setup
+## Step 2: Breadboard Setup
 
-Using the components listed above, assemble the external button on the breadboard as shown in the pictures below.
+The diagram for the circuit with the photocell and the button can be found below. 
+
+![](Circuit_Diagram.png)
+
+Using the components listed above, assemble the breadboard. You can find an example of how to assemble a button circuit using Arduino [here](https://www.arduino.cc/en/tutorial/button) and an example of how to assemble a photocell circuit [here](https://learn.sparkfun.com/tutorials/photocell-hookup-guide/all). The final breadboard should look similar to the pictures.
 
 ![](Full_Breadboard.jpeg)
 ![](Breadboard.jpeg)
