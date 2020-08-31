@@ -38,8 +38,8 @@ The diagram for the circuit with the photocell and the button can be found below
 
 Using the components listed above, assemble the breadboard. You can find an example of how to assemble a button circuit using Arduino [here](https://www.arduino.cc/en/tutorial/button) and an example of how to assemble a photocell circuit [here](https://openbci.com/community/measuring-stimulus-timing-with-a-photoresistor/). The final breadboard should look similar to the pictures.
 
-![](Full_Breadboard.jpeg)
-![](Breadboard.jpeg)
+![](Full_Breadboard_Setup.jpeg)
+![](Breadboard_Setup.jpeg)
 
 Next, connect the breadboard to the Cyton board as shown below. Place the breadboard beside your computer such that the photocell points to the lower left corner of your screen, which is where the video trigger will be located.
 
