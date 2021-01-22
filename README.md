@@ -47,7 +47,7 @@ Next, connect the breadboard to the Cyton board as shown below. Place the breadb
 
 ## Step 4: Run Experiment
 
-Download [this video](video.mp4). Once you're ready to start, press ```Start Data Stream``` in the GUI,open the video, and make it Full-Screen. Every time a puppy appears in the video, press the button. The video is around 3 minutes long. You're now ready to press play!
+Download [this video](video.mp4). Once you're ready to start, press ```Start Data Stream``` in the GUI, open the video, and make it Full-Screen. Every time a puppy appears in the video, press the button. The video is around 3 minutes long. You're now ready to press play!
 
 ## Step 5: Retrieve Data
 
